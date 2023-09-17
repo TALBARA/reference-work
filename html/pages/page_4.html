@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+    <div id="main-container">
+        <div id="menu-selector"></div>
+        <div>
+            <h3>Introduce los primeros enteros separados por comas</h3>
+            <div id="description">
+                <p>Queremos realizar un programa que permita introducir un array de números en una
+                    caja de texto y nos permita introducir en el sitio que queramos (indicado mediante un menú
+                    desplegable de opciones) el valor que se introduzca en la caja de texto Valor</p>
+            </div>
+            <div>
+                <input type="text" name="" id="input-text-4">
+                <input type="button" value="Random" onclick="createOptions(`input-text-4`)">
+            </div>
+            <div>
+                <div>
+                    <p>Valor:</p>
+                    <input type="text" name="" id="replace-value">
+                </div>
+                <div>
+                    <p>Posicion del Array</p>
+                    <select id="select-of-array-positions"></select>
+                    <input type="button" value="Insertar" onclick="replaceValueInArray(`input-text-4`)">
+                </div>
+            </div>
+            <div>
+                <p id="array-replaced"></p>
+            </div>
+        </div>
+    </div>
+    <script src="../../js/selector/layout.js"></script>
+    <script src="../../js/script.js"></script>
+</body>
+</html>

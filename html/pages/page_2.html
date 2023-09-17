@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body> 
+    <div id="main-container">
+        <div id="menu-selector"></div>
+        <div id="description">
+            <p>Se introducen en dos cajas de texto dos arrays de números (separados por
+                comas). Si pueden generar de forma aleatoria utilizando los botones Ejemplo 1 y Ejemplo 2.
+                Desde el botón Concatenar se realizará la concatenación de los 2 arrays y se mostrarán debajo</p>
+        </div>
+        <div id="">
+            <h3>Introduce un conjunto de numeros enteros</h3>
+            <div>
+                <input type="text" name="" id="input-text-2-1">
+                <input type="button" value="Random" onclick="setDefaultInputValue(`input-text-2-1`)">
+            </div>
+        </div>
+        <div>
+            <h3>Introduce un segundo conjunto de numeros enteros</h3>
+            <div>
+                <input type="text" name="" id="input-text-2-2">
+                <input type="button" value="Random" onclick="setDefaultInputValue(`input-text-2-2`)">
+            </div>
+        </div>
+        <div>
+            <input type="button" value="Concat" onclick="concatValues()">
+        </div>
+
+        <div>
+            <p id="concat-arrays"></p>
+        </div>
+    </div>
+    <script src="../../js/selector/layout.js"></script>
+    <script src="../../js/script.js"></script>
+</body>
+</html>

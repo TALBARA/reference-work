@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+    <div id="main-container">
+        <div id="menu-selector"></div>
+        <div id="description">
+            <p>Queremos realizar un programa que permita introducir un array de números en una
+                caja de texto y los ordene en función del botón pulsado</p>
+        </div>
+        <div>
+            <h3>Introduce los primeros enteros separados por comas</h3>
+            <div>
+                <input type="text" name="" id="input-text-3">
+                <input type="button" value="Random" onclick="setDefaultInputValue(`input-text-3`)">
+            </div>
+            <div>
+                <input type="button" value="Upward" onclick="upwardSort(`input-text-3`)">
+                <p id="upward"></p>
+            </div>
+            <div>
+                <input type="button" value="Descending" onclick="descentSort(`input-text-3`)">
+                <p id="descent"></p>
+            </div>
+        </div>
+    </div>
+    <script src="../../js/selector/layout.js"></script>
+    <script src="../../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+    <div id="main-container">
+        <div id="menu-selector"></div>
+
+        <div id="description">
+            <p>Se ingresa un conjunto de números a través de una caja de texto, y a partir de esos valores, se obtiene la suma total de todos los elementos del array, la media de todos los elementos del array, el valor más alto y el valor más bajo de todos los elementos del array.</p>
+        </div>
+
+        <div id="exercise-1-form">
+            <div id="exercise-1-form-charge">
+                <input type="text" name="" id="input-text-1" placeholder="Enter set of values">
+                <input type="button" value="Charge" id="btn-input-text" onclick="setDefaultInputValue(`input-text-1`)">
+            </div>
+            <div id="exercise-1-form-calculate">
+                <input type="button" value="Calculate" id="btn-calculate" onclick="calculate(`input-text-1`)">
+            </div>
+            <div id="exercise-1-response">
+                <p>La suma es : <span id="sum"></span></p>
+                <p>La media es : <span id="avg"></span></p>
+                <p>El mayor es : <span id="major"></span></p>
+                <p>El menor es : <span id="minor"></span></p>
+            </div>
+        </div>
+    </div>
+    <script src="../../js/selector/layout.js"></script>
+    <script src="../../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+body{
+
+    /* Format */
+    display: flex;
+    justify-content: center;
+
+    /* Color */
+    background-color: #3498db;
+}
+
+#main-container{
+    width: 50%;
+    background-color: #FFFFFF;
+}
+
+#menu-selector{
+
+    /* Format */
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-around;
+
+    /* Background */
+    background-color: #333333;
+    
+    /* Font */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+
+    /* Dimension */
+    margin: 0;
+    padding: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #CCCCCC;
+}
+
+#description {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+#description p{
+    width: 70%;
+    padding: 1rem;
+}
+
+/* Exercise 1 */
+
+#exercise-1-form{
+
+    /* Format */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 60vh;
+    max-height: 60vh;
+}
+
+#exercise-1-form-charge input, #exercise-1-form-calculate input{
+
+    /* Dimension */
+    padding: 1rem;
+    outline: none;
+    margin: 1rem;
+
+    /* Font */
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    /* Border */
+    border-radius: 2%;
+}
+
+#exercise-1-form-charge #input-text-1{
+
+    padding-left: 15rem;
+    padding-right: 15rem;
+
+}
+
+#exercise-1-response{
+
+     /* Font */
+     font-size: 1rem;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
